@@ -47,7 +47,7 @@ public/                  # Static assets (images, resume)
 This project is deployed on Vercel.
 Once you link this GitHub repo to your Vercel account, all pushes to main will auto-deploy.
 
-🔗 Live site: https://jerome-portfolio.vercel.app (replace with your actual link after deploy)
+🔗 Live site: https://jerome-portfolio-cjuwaneme1704s-projects.vercel.app/
 
 📬 Contact
 Feel free to reach out:
