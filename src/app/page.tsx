@@ -12,7 +12,7 @@ const projects = [
     description:
       "Modern course registration platform with email auth, smart conflict detection, analytics, and role-based access. Built with Next.js 15.1, React 19, Tailwind CSS, and Supabase.",
     tech: ["Next.js", "React", "Tailwind CSS", "Supabase"],
-    repo: "coursemix.ca",
+    repo: "https://coursemix.ca",
     image: "/CourseMixLogo.png",
   },
   {
