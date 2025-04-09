@@ -46,9 +46,9 @@ export default function Navbar() {
       {/* Mobile Dropdown Menu */}
       {isMenuOpen && (
         <div className="md:hidden bg-gray-900 shadow-md">
-          <Link href="/about" className="block px-6 py-3 text-white hover:text-blue-400 transition">About</Link>
-          <Link href="/projects" className="block px-6 py-3 text-white hover:text-blue-400 transition">Projects</Link>
-          <Link href="/contact" className="block px-6 py-3 text-white hover:text-blue-400 transition">Contact</Link>
+          <Link href="#about" className="block px-6 py-3 text-white hover:text-blue-400 transition">About</Link>
+          <Link href="#projects" className="block px-6 py-3 text-white hover:text-blue-400 transition">Projects</Link>
+          <Link href="#contact" className="block px-6 py-3 text-white hover:text-blue-400 transition">Contact</Link>
         </div>
       )}
     </motion.nav>
