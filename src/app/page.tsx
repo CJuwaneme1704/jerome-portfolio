@@ -12,7 +12,7 @@ const projects = [
     description:
       "Modern course registration platform with email auth, smart conflict detection, analytics, and role-based access. Built with Next.js 15.1, React 19, Tailwind CSS, and Supabase.",
     tech: ["Next.js", "React", "Tailwind CSS", "Supabase"],
-    repo: "https://github.com/CJuwaneme1704",
+    repo: "coursemix.ca",
     image: "/CourseMixLogo.png",
   },
   {
@@ -20,7 +20,7 @@ const projects = [
     description:
       "Multiplayer Java-based Connect Four game with real-time terminal and Swing GUI support. Supports GUI vs Terminal matchups and player move validation.",
     tech: ["Java", "Swing", "OOP"],
-    repo: "https://github.com/CJuwaneme1704",
+    repo: "https://github.com/CJuwaneme1704/Terminal-and-GUI-Connect-4-game",
     image: "/e80686db-b0fb-4f2c-bd2f-3a89734f102a.avif",
   },
 ];
