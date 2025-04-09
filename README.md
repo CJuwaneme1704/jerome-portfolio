@@ -1,36 +1,61 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Jerome.dev — Portfolio Site
 
-## Getting Started
+Welcome to my personal portfolio site, built with [Next.js 13+ App Router](https://nextjs.org) and [Tailwind CSS](https://tailwindcss.com).  
+This site showcases who I am, what I’ve built, and how to get in touch — all with speed, accessibility, and interaction in mind.
 
-First, run the development server:
+## 🚀 Tech Stack
+
+- **Framework:** [Next.js 13+ (App Router)](https://nextjs.org)
+- **Styling:** [Tailwind CSS](https://tailwindcss.com)
+- **Fonts:** [Geist](https://vercel.com/font)
+- **Animations:** [Framer Motion](https://www.framer.com/motion/)
+- **Hosting:** [Vercel](https://vercel.com)
+
+## 📂 Features
+
+- Fully responsive and accessible design
+- Featured project cards with hover animations
+- About section and contact modal
+- Resume download & GitHub/LinkedIn integration
+
+## 🛠 Getting Started
+
+Install dependencies:
 
 ```bash
+npm install
+Start the dev server:
+
+bash
+Copy
+Edit
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Open your browser at http://localhost:3000
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+📁 File Structure Highlights
+php
+Copy
+Edit
+src/
+├── app/                 # App Router structure
+│   ├── layout.tsx       # Global layout with Navbar & Footer
+│   └── page.tsx         # Home page
+├── components/          # Navbar, Footer, ProjectCard, etc.
+├── styles/              # Tailwind & global CSS
+public/                  # Static assets (images, resume)
+📦 Deployment
+This project is deployed on Vercel.
+Once you link this GitHub repo to your Vercel account, all pushes to main will auto-deploy.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+🔗 Live site: https://jerome-portfolio.vercel.app (replace with your actual link after deploy)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+📬 Contact
+Feel free to reach out:
 
-## Learn More
+📧 chidubemuwaneme@gmail.com
 
-To learn more about Next.js, take a look at the following resources:
+🐙 GitHub
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+💼 LinkedIn
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Built with 💙 by Jerome Uwaneme
